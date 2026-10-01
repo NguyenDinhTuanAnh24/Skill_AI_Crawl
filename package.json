@@ -1,0 +1,17 @@
+{
+  "name": "fireant-hpg-report",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Crawl public FireAnt data and generate a standalone five-year stock report.",
+  "type": "module",
+  "scripts": {
+    "crawl": "node cli.mjs --symbol HPG --years 5 --news 60",
+    "report": "node cli.mjs --symbol HPG --years 5 --news 60",
+    "serve": "node server.mjs",
+    "test": "node --test",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

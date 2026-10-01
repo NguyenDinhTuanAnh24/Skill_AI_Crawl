@@ -1,0 +1,7 @@
+interface:
+  display_name: "FireAnt Stock Report"
+  short_description: "Build Vietnamese stock reports from FireAnt"
+  brand_color: "#16A34A"
+  default_prompt: "Use $fireant-stock-report to collect HPG data from FireAnt and generate a five-year HTML report."
+policy:
+  allow_implicit_invocation: true
